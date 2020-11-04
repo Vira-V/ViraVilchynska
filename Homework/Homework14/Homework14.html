@@ -138,6 +138,15 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
     font-style: italic;
     color: burlywood;
 }
+.vertical{
+    writing-mode:vertical-rl;
+    font-size: 40px;
+    color: honeydew;
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+   
+}
 #home_slider.owl-carousel .owl-nav .owl-prev{
      background: url(Images/arrow_prev.png) no-repeat;
      width: 8px;
@@ -185,6 +194,21 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
     display: block;
     margin: 0 auto;
 }
+table.table_main,
+th,
+td{
+	border:1px solid #000;
+    padding: 20px 20px;
+    vertical-align: middle;
+    text-align: center;
+	}   
+table.table_main{
+	border-collapse:collapse;
+    margin: 0 auto;
+	}
+tr:nth-child(odd){
+	background:burlywood;
+	}    
 .footer{
     position: absolute;
     width: 100%;
@@ -243,7 +267,7 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
                     <div class="item slide1">
                         <div class="container">
                         <h2>Розпродаж книг</h2>
-                        <div class="text_slider">Налітай і розбирай</div>
+                        <div class="vertical">Налітай і розбирай</div>
                         </div>
                     </div>
                     <div class="item slide2">
@@ -265,7 +289,35 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
                   </div>
                   <div class="clear"></div>
               </div>
-            </section>
+            <div> 
+                <table class="table_main">
+
+                      <tr>
+                          <th>Романи</th>
+                          <th>Новели</th>
+                          <th>Повісті</th>
+                      </tr>
+                      
+                      <tr>
+                          <td>Війна і мир</td>
+                          <td>Чорний ворон</td>
+                          <td>Катерина</td>
+                      </tr>
+                      
+                      <tr>
+                          <td>Повінь</td>
+                          <td>Толока</td>
+                          <td>Дружба</td>
+                      </tr>
+                      
+                       <tr>
+                          <td>Розлука</td>
+                          <td>Мойсей</td>
+                          <td>Кохання</td>
+                      </tr>
+        </table>
+            </div>
+        </section>
         </div>
         <footer class="footer">
            copyright 2020
