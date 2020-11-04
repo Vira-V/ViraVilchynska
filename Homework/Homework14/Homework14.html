@@ -24,7 +24,7 @@
      min-height: 100%;
  }
 .page{
-     padding-bottom: 58px
+     padding-bottom: 58px;
 }
 .container{
      width: 1170px;
@@ -78,7 +78,6 @@
 }
 .address_main {
      color: black;
-     text-decoration: none;
 }
 .nav-menu{
      width: 100%;
@@ -105,18 +104,17 @@
 ul.menu-main li.item-menu:nth-child(3) ul.child-menu-item{
      position: absolute;
      background: burlywood;
-     width: 90px;
-     display: none;
+     width: 120px;
      text-align: center;
+     display: none;
      z-index: 999;
-}
-}
-ul.menu-main li.item-menu ul.child-menu-item li{
-     float: inherit;
 }
 ul.menu-main li.item-menu:nth-child(3):hover ul.child-menu-item{
      display: block;
-}     
+}
+ul.menu-main li.item-menu ul.child-menu-item li{
+     float: inherit;
+}    
 ul.menu-main li.item-menu ul.child-menu-item li a{
      padding: 9px 15px;    
 }
@@ -150,8 +148,8 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
      left: 16px;
 }
 #home_slider.owl-carousel .owl-nav .owl-next{
-    background: url(Images/arrow_next.png) no-repeat;
-    width: 8px;
+     background: url(Images/arrow_next.png) no-repeat;
+     width: 8px;
      height: 13px;
      outline: none;
      bottom: 300px;
@@ -178,6 +176,7 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
 .img_block2{
     width: 60%;
     float: left;
+    box-sizing: border-box;
 }
 .block2{
     padding: 60px 0;
@@ -196,7 +195,6 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
 }
  </style>
 <body>
- 
         <div class="for_page">
         <div class="page">
             <header class="header">
@@ -226,11 +224,11 @@ ul.menu-main li.item-menu ul.child-menu-item li a{
                             <li class="item-menu"><a href="item-link">Про нас</a></li>
                             <li class="item-menu"><a href="item-link">Каталог</a>
                                <ul class="child-menu-item">
-                                  <li class="item-menu"><a href="item-link"></a>Романи</li> 
-                                  <li class="item-menu"><a href="item-link"></a>Повісті</li>
-                                  <li class="item-menu"><a href="item-link"></a>Новели</li>
-                                  <li class="item-menu"><a href="item-link"></a>Збірки</li>
-                                  <li class="item-menu"><a href="item-link"></a>Поезія</li>
+                                  <li class="item-menu"><a href="item-link">Романи</a></li> 
+                                  <li class="item-menu"><a href="item-link">Повісті</a></li>
+                                  <li class="item-menu"><a href="item-link">Новели</a></li>
+                                  <li class="item-menu"><a href="item-link">Збірки</a></li>
+                                  <li class="item-menu"><a href="item-link">Поезія</a></li>
                                </ul>
                             </li>
                             <li class="item-menu"><a href="item-link">Новини</a></li>
