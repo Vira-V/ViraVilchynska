@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>catalog</title>
+</head>
+<style>
+*{
+	padding:0;
+	margin:0;
+}
+body,html{
+	height:100%;
+	}
+.for_page{
+	position:relative;
+	min-height:100%;
+	}
+.page{
+	padding-bottom:100px;
+	}
+footer{
+	position:absolute;
+	width:100%;
+	left:0;
+	bottom:0;
+	background: #006400;
+	height:100px;
+	}
+header{
+	height:100px;
+	margin-bottom:50px;
+	}
+.menu{
+	width:100%;
+	text-align:center;
+	background:#66CDAA;
+    }
+.item{
+	width:13%;
+	margin:10px;
+	height:50px;
+	line-height:3em;
+	display:inline-block;
+	background:#2E8B57;
+	}
+.subitem{
+	display:block;
+	position:absolute;
+	margin-top:73px;
+	background:#2E8B57;
+	visibility:hidden;
+	width:300px;
+	}
+.subitem .link{
+	border-top:1px solid #000;
+	height:0;
+	opacity:0;
+	}	
+.spacer{
+	position:relative;
+	top:-10px;
+	width:0;
+	height:72px;
+	background:#2E8B57;
+	transition: 0.5s linear;
+	}
+.item2:hover~.spacer{
+	width:100%;
+	transition:0.5 linear;
+	}
+.item2:hover .subitem{
+	visibility:visible;
+	transition:1s ease-in;
+	}
+.item2:hover .subitem .link{
+	height:50px;
+	opacity:1;
+	transition:0.5s linear;
+	}
+.btn{
+	width:150px;
+	background:#000;
+	text-align:center;
+	color:#fff;
+    margin-top: 5px;
+    margin-left: 5px;
+	padding:10px 0px;
+	border:solid 1px #000000;
+	display:block;
+	text-decoration:none;
+	transition:0.4s linear;
+	}
+.btn:hover{
+	background:#2E8B57;
+    border-radius: 8px;
+	}
+.cub{
+    width:100px;
+	height:100px;
+	position:relative;
+	background-color:#00FF7F;
+	animation: cub 5s;
+	animation-iteration-count:infinite;
+}
+@keyframes cub{
+	from{
+		top:0;
+		left:0;
+        background: #00FF7F;;
+		}
+		25%{
+		top:0;
+		left:200px;
+        background: #00FFFF;
+			}
+		50%{
+			top:200px;
+			left:200px;
+			background: #FF00FF;
+			}
+		75%{
+			top:200px;
+			left:0;
+			background: #FF6347;
+			}
+	to{
+		top:0;
+		}
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+	}
+.content{
+	margin-bottom:60px;
+	}
+.item-catalog{
+	width:375px;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 15px;
+	margin-bottom:40px;
+	}
+.clear{
+	clear:both;
+	}
+img{
+	max-width:100%;
+	width:auto;
+	height:auto;
+	}
+.item-catalog:nth-child(4){
+	clear:both;
+	}
+.image-catalog{
+	max-height: 375px;
+    overflow: hidden;
+	}
+.image-catalog .img{
+    transition: all 1s ease-out;
+}
+.image-catalog img:hover{
+	transform:scale(1.1);
+}
+.catalog2 img:hover{
+    border-radius: 100%;
+}
+.item-catalog h2{
+	margin: 13px 0;
+	min-height: 12px;
+	}
+span{
+    color:#ff0000;
+    text-align: left;
+    font-size: 18px;
+    text-decoration: line-through;
+    padding-bottom: 10px;
+}    
+.item-catalog a{
+	font-size: 16px;
+    line-height: 19px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    transition:ease 0.3s;
+	}
+.item-catalog a:hover{
+	color: #008000;
+	}
+.expert_description{
+	max-height: 75px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 19px;
+	}
+.item-catalog .btn_catalog{
+	width: 150px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background: #66CDAA;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    transition:linear 0.3s;
+	}
+.item-catalog .btn_catalog:hover{
+	background:#333;
+	}
+</style>
+<body>
+<main class="for_page">
+  <div class="page">
+      <header>
+        <div class="menu">
+            <div class="item">Головна</div>
+             <div class="item item2">
+                Каталог
+                <div class="subitem">
+                   <div class="link">Блокноти</div>
+                   <div class="link">Записники</div>
+                   <div class="link">Ручки</div>
+                   <div class="link">Щоденники</div>
+                </div>
+            </div>
+             <div class="item">Про нас</div>
+             <div class="item">Доставка</div>
+             <div class="item">Контакти</div>
+              <div class="spacer"></div>
+           </div>
+           
+           <a class="btn" href="#">Button</a>
+           <div class="cub"></div>
+      </header>
+       <section class="content">
+              <div class="container">
+               <div class="item-catalog">
+                    <div class="image-catalog"><img src="images/catalog1.jpg" /></div>
+                    <h2><a href="#">Записна книга Moleskine Classic 19 х 25 см 192 сторінки в лінійку Чорна</a></h2>
+                    <span>200 грн</span> 160 грн 
+                    <div class="expert_description">
+                    Блокнот в м'якій обкладинці з матовою червоною ламінацією і рідкісним вибірковим УФ-лаком підкорює з першого погляду. Яскравий блокнот з кольоровими сторінками подарує вам натхнення!  
+                </div>
+                <a class="btn_catalog" href="#">Детальніше</a>
+                    </div>
+
+            <div class="item-catalog">
+                <div class="image-catalog catalog2"><img src="images/catalog2.jpg" /></div>
+                <h2><a href="#">Блокнот Axent Flowers 8438-12-A, 165x165 мм, 80 аркушів, нелінований</a></h2>
+                <span>250 грн</span> 230 грн 
+                <div class="expert_description">
+                    Блокнот Axent 8438-11-A в обкладинці з яскравим повнокольоровим друком в ліцензії Flowers. Розмір: 165х165 мм. Тверда обкладинка Soft touch з вибірковим УФ-лаком забезпечує стійкість і яскравість кольорів. Лінування: 80 нелінованих білих аркушів Cuties.  
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                        </div>
+                        
+            <div class="item-catalog">
+                <div class="image-catalog"><img src="images/catalog3.jpg" /></div>
+                <h2><a href="#">Книга записна Axent Touch 8430-08-A, 125x125 мм, 80 аркушів, клітинка</a></h2>
+                <span>200 грн</span> 145 грн  
+                <div class="expert_description">
+                    Записна книжка Axent 8430-08-А з яскравим сюжетом може стати бажаною покупкою, романтичним подарунком. Якісний папір щільністю 70г/м2 білого кольору забезпечує комфортне письмо, добре вбирає чорнило.
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                    </div> 
+                    
+            <div class="item-catalog">
+                <div class="image-catalog"><img src="images/catalog4.jpg" /></div>
+                <h2><a href="#">Щотижневик 2021 Axent Partner Soft 8506-21-10-A, A5-, 125x195 мм</a></h2>
+                <span>300 грн</span> 275 грн 
+                <div class="expert_description">
+                    М`яка обкладинка з PU-матеріалу допомагає зберегти акуратний зовнішній вигляд протягом довгого часу. Якісний кремовий папір щільністю 80 г/м2 добре вбирає чорнило та забезпечує комфортне письмо. 
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                    </div>
+
+            <div class="item-catalog">
+                <div class="image-catalog catalog2"><img src="images/catalog5.jpg" /></div>
+                <h2><a href="#">Щотижневик 2020 Axent Prime Strong 8507-20-08-A, A5, 145x210 мм</a></h2>
+                <span>300 грн</span> 275 грн 
+                <div class="expert_description">
+                    Тверда обкладинка з вінілу допомагає зберегти акуратний та презентабельний вигляд протягом довгого часу. Якісний кремовий папір щільністю 80 г/м2 добре вбирає чорнило та забезпечує комфортне письмо.
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                    </div>
+
+            <div class="item-catalog">
+                <div class="image-catalog"><img src="images/catalog6.jpg" /></div>
+                <h2><a href="#">Щотижневик напівдатований Axent Partner Flex 8601-20-35-A, A5-, 125x195 мм</a></h2>
+                <span>300 грн</span> 275 грн 
+                <div class="expert_description">
+                    М`яка обкладинка з PU-матеріалу допомагає зберегти акуратний зовнішній вигляд протягом довгого часу. Якісний кремовий папір щільністю 80 г/м2 добре вбирає чорнило та забезпечує комфортне письмо. 
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                    </div>  
+                    
+            <div class="item-catalog">
+               <div class="image-catalog"><img src="images/catalog7.jpg" /></div>
+                <h2><a href="#">Ручка гелева "пиши-стирай" Axent Perfect AG1078-02-A, 0.5 мм, синя</a></h2>
+                <span>40 грн</span> 35 грн 
+                <div class="expert_description">
+                    Ручка "пиши-стирай" Axent Perfect AG1078-02-A має корисну особливість - протягом 12 годин є можливість видалення запису з допомогою гумки, вбудованої в корпус. Легко пише і виводить лінії.
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                    </div> 
+
+            <div class="item-catalog">
+                <div class="image-catalog"><img src="images/catalog8.jpg" /></div>
+                <h2><a href="#">Блок паперу з клейким шаром Axent 2443-05-A 70x70 мм</a></h2>
+                <span>80 грн</span> 75 грн 
+                <div class="expert_description">
+                    Блок паперу Axent 2443-05-A з липким шаром у формі квітки. Розмір блоку 70х70 мм. Один блок містить 50 аркушів. Щільність паперу 75 г/м2. Пастельні кольори. Липкий шар добре клеїться.
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                    </div> 
+
+            <div class="item-catalog">
+                <div class="image-catalog"><img src="images/catalog9.jpg" /></div>
+                <h2><a href="#">Ручка кулькова Axent Milagro AB1011-02-A, 0.5 мм, синя</a></h2>
+                <span>50 грн</span> 45 грн  
+                <div class="expert_description">
+                    Ручка кулькова Axent Milagro AB1011-02-A з металізованим накінечником. Асортимент кольорів корпусу. Пишучий вузол 0.5 мм. Стержень ABR1000-A. Довжина стержня 140 мм. Легко пише.
+                    </div>
+                    <a class="btn_catalog" href="#">Детальніше</a>
+                    </div> 
+            
+                    <div class="clear"></div>
+                      </div>
+       </section>
+  </div>
+  <footer>
+  </footer>
+</main>
+</body>
+</html>
