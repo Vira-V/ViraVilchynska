@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Error404</title>
+</head>
+<style>
+ *{
+     margin: 0; 
+     padding: 0;  
+ }
+ .container{
+     width: 1170px;
+     margin: 0 auto;
+ }
+ .box1{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     padding-top: 20px; 
+     padding-bottom: 30px;
+ }
+ .box2{
+     display: flex;
+     flex-direction: row-reverse;
+     flex-wrap: nowrap;
+     padding-top: 20px;
+     padding-bottom: 30px;
+ }
+ .error{
+     justify-items: center;
+     width: 50%;
+     box-sizing: border-box;
+     padding-top: 50px;
+     padding-bottom: 20px;
+     text-align: center;
+ }
+ h1{
+     color: dodgerblue;
+     font-size: 100px;
+     font-weight: bold;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding-bottom: 20px;
+     padding-top: 50px;
+ }
+ h2{
+     color: black;
+     font-size: 25px;
+     text-transform: uppercase;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding-bottom: 20px;
+ }
+ p{
+     color:black;
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding-bottom: 30px;
+ }
+ .btn{
+     display: block;
+     background: dodgerblue;
+     color: cornsilk;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: bolder;
+     font-size: 15px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding: 17px 30px;
+     max-width: 200px;
+     width: 100%;
+     margin: 0 auto;
+     transition: all .4s ease-in-out;
+ }
+ a{
+     text-decoration: none;
+ }
+a:hover{
+     color: cornsilk;
+     background: forestgreen;
+     text-decoration: none;
+ }
+.image{
+     width: 50%;
+     box-sizing: border-box;
+     padding-top: 50px;
+     padding-bottom: 20px;
+ }
+ img{
+     max-width: 100%;
+     width: auto;
+     height: auto;
+ }
+ </style>
+ <body>
+<div class="container">
+<div class="box1">
+    <div class="error">
+        <h1>404</h1>
+        <h2>Сторінку не знайдено</h2>
+        <p>Ви можете повернутись на головну сторінку</p>
+    <a class="btn" href="/">Головна</a>
+    </div>
+    <div class="image">
+        <img class="gif" src="Images/tenor.gif" alt="Логотип | https:site.com.ua"  title="Логотип"/>
+    </a>
+    </div>
+</div>
+<div class="box2">
+    <div class="error">
+        <h1>404</h1>
+        <h2>Сторінку не знайдено</h2>
+        <p>Ви можете повернутись на головну сторінку</p>
+    <a class="btn" href="/">Головна</a>
+    </div>
+    <div class="image">
+        <img class="gif" src="Images/tenor.gif" alt="Логотип | https:site.com.ua"  title="Логотип"/>
+    </a>
+    </div>
+</div>
+</div>
+ </body>
+ </html>
