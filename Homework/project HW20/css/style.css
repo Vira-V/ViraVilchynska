@@ -1,0 +1,124 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+html,
+body{
+    height: 100%;
+}
+body{
+    font-size: 14px;
+    color: #000;
+    font-family: 'vidaloka_regular';
+}
+/*header*/
+.header{
+    z-index: 2;
+    position: relative;
+    padding-top: 60px;
+}
+.nav-menu ul li a{
+    transition: 0.3s;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.nav-menu ul li{
+    margin-right: 44px;
+}
+.nav-menu ul li:last-child{
+    margin-right: 0;
+}
+.nav-menu ul li.active a,
+.nav-menu ul li a:hover{
+    text-decoration: none;
+    padding-bottom: 35px;
+    color: #ffeb3b;
+    border-bottom: solid 2px #ffeb3b;
+}
+/*header*/   
+.nav-menu .navbar-toggler,
+.nav-menu .navbar-brand{
+    display: none;
+}
+.border-header{
+    border-bottom: solid 1px #a29a98;
+}
+/*banner-home*/
+.banner-home{
+    position: relative;
+    left:0;
+    top: -127px;
+    z-index: 1;
+    background: url(../img/baner-home.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+}
+#slider-baner{
+    padding-top: 300px;
+}
+.btn-search{
+   font-size: 0; 
+   background: url(../img/search.png) no-repeat;
+   width: 43px; 
+   height: 37px;
+   border: inherit;
+   outline: none;
+}
+.pole-search{
+    display: none;
+    outline: none;
+}
+.form-search{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+.form-search:before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    background: #a29a98;
+    width: 1px;
+    left: 0;
+    top: 0;
+}
+.banner-home .owl-carousel .owl-item .item h2{
+    text-align: center;
+    color: #fff;
+    font-size: 110px;
+    font-family: 'back_to_black_demoregular';
+}
+.banner-home  .owl-carousel .owl-item .item .text-slider{
+    font-size: 280px;
+    color: #fff;
+    font-family: 'back_to_black_demoregular';
+    text-align: center;
+    margin-top: -35px;
+}
+#slider-baner.owl-carousel .owl-prev{
+    background: url(../img/arrow_prev.png) no-repeat;
+    width: 8px;
+    height: 13px;
+    outline: none;
+    position: absolute;
+    bottom: 300px;
+    left: 16px;
+}
+#slider-baner.owl-carousel .owl-next{
+    background: url(../img/arrow_next.png) no-repeat;
+    width: 8px;
+    height: 13px;
+    outline: none;
+    bottom: 300px;
+    right: 16px;
+    position: absolute;
+}
+#slider-baner.owl-carousel .owl-prev:hover,
+#slider-baner.owl-carousel .owl-next:hover{
+   opacity: 0.6;
+}
+/*banner-home*/
