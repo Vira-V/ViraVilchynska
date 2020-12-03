@@ -12,7 +12,7 @@ body{
    min-height: 100%;
 }
 .page{
-    padding-bottom: 100px;
+    padding-bottom: 300px;
 }
 .footer{
     position: absolute;
@@ -21,7 +21,6 @@ body{
     bottom: 0;
     background: url(../img/footer.jpg);
     padding: 20px 0;
-    height: 280px;
 }
 body{
     font-size: 14px;
@@ -200,10 +199,9 @@ img{
 /*block3*/
 .block3{
     background-image: url(../img/block3.jpg);
-    height: 400px;
     width:100%;
-    padding: 90px 400px 70px 400px;
     text-align: center;
+    padding-top: 80px;
 }
 .icon_box3{
     color: #ffeb3b;
@@ -232,7 +230,8 @@ img{
 /*block3*/
 /*block4*/
 .block4{
-    padding: 100px 0px;
+    padding-top: 100px;
+    padding-bottom: 120px;
 }
 .block4 h2{
     font-size: 36px;
@@ -306,7 +305,7 @@ img{
     flex-wrap: wrap;
 }
 .img_gallery1{
-    width: 25%;
+    width: 30%;
 }
 .img_gallery2{
     display: flex;
@@ -315,20 +314,19 @@ img{
     display: flex;
 }
 .gallery_wrapper{
-    width: 75%;
+    width: 70%;
 }
 .img_gallery_box1{
     height: 900px;
 }
 .img_gallery_box1 img{
     width: 100%;
-    height: 100%;
+    height: 64%;
     object-fit: cover;
 }
 .title_gallery{
     color: #000;
     font-size: 30px;
-    padding-bottom: 20px;
     font-family: 'vidaloka_regular';
 }
 .text_gallery{
@@ -359,7 +357,6 @@ img{
 /*block4*/
 /*block5*/
 .block5{
-    padding: 0px 370px;
     padding-bottom: 130px;
 }
 .block5 h2{
@@ -381,8 +378,8 @@ img{
     height: 300px;
     width: 360px;
     text-align: center;
-    padding: 80px 30px 60px 40px;
     margin-bottom: 20px;
+    padding-top: 70px;
 }
 .block5_box1{
     background-color: #ff5252;
@@ -459,27 +456,15 @@ img{
     text-align: left;
     padding-bottom: 120px;
 }
-.owl-carousel .owl-theme{
-    display:flex;
-}
-.owl-carousel .owl-theme .item2{
-    padding-left: 400px;
-    padding-right: 400px;
-}
-.banner-home .owl-carousel .owl-item .item2 img{
-    text-align: center;
-    flex-direction: row;
-}
-.banner-home  .owl-carousel .owl-item .item2 .image-slider{
-    font-size: 280px;
-    color: #fff;
-    text-align: center;
-    margin-top: -72px;
+.block6 .owl-carousel .owl-item .item2{
+    padding-bottom: 170px;
+    margin-right: 120px;
 }
 /*block6*/
 /*block7*/
 .block7{
-    padding: 120px 100px;
+    padding-bottom: 120px;
+    padding-top: 100px;
 }
 .block7 h3{
     font-size: 51px;
@@ -496,6 +481,9 @@ img{
     margin: 0 auto;
     margin-bottom: 100px;
 }
+.block7 .card{
+    border-radius: 0px;
+}
 .card-title{
     font-size: 16px;
     font-family: 'vidaloka_regular';
@@ -510,9 +498,6 @@ img{
     color: #969595;
     border-bottom: solid 1px #dad9d9;
     padding-bottom: 25px;
-}
-.team{
-    margin: 0 auto;
 }
 .icon_block7{
     text-align: center;
@@ -557,7 +542,7 @@ img{
 .block8_form{
     margin: 0 auto;
 }
-.email{
+.mail{
     background: rgba(92, 95, 102, 0.5);
     width: 460px;
     height: 50px;
