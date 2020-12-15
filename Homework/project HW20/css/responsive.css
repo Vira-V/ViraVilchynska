@@ -108,6 +108,10 @@
     .block4{
         padding-bottom: 80px;
     }
+    .owl-carousel .owl-item img {
+        max-width: 200px;
+        margin: 0 auto;
+    }
     .block5 h2{
         font-size: 28px;
     }
@@ -144,6 +148,7 @@
     }
     .block7{
         padding-top: 80px;
+        padding-bottom: 40px;
     }
     .block7 h3{
         font-size: 30px;
@@ -157,7 +162,7 @@
         padding-top: 90px;
     }
     .mail{
-        padding: 10px 20px;
+        padding: 10px 60px;
     }
 }
 @media(max-width:767px){
@@ -222,6 +227,15 @@
     .block5 {
         margin-top: 20px;
         padding-bottom: 40px;
+    }
+    .block4 .nav-tabs li a {
+        margin-bottom: 15px;
+    }
+    .block4 .nav-tabs {
+        margin-bottom: 40px;
+    }
+    .nav{
+        justify-content: center;
     }
     .block5 .text5 {
         margin-bottom: 40px;
