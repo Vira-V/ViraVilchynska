@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Associative Arrays</title>
+</head>
+<script>   
+let arr = new Map([
+  ['key1', 'value1'],
+  ['key2', 'value2'],
+  ['key3', 'value3']
+]);
+arr.set('key4', 'value4');
+arr.set('key5', 'value5');
+arr.size;
+arr.delete('key2');
+arr.delete('key5');
+arr.clear();
+console.log(arr);
+</script>
+<body>
+</body>
+</html>

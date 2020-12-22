@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Function</title>
+</head>
+<body>
+    <div id="test">От і прийшла до нас чаклунка-зима зі своїми холодними чарами. Накрила весь світ широкими білими крильми і чарує, робить його казковим і неповторним, білим-білим…</div>
+    <button id = "btn" onClick="openFunction('test')">Детальніше</button>
+    <div id="test1">Зима по-своєму красива і чарівна! Взимку ти ніби живеш у чарівній і неповторній казці. А казка всюди</div>
+    <button id = "btn1" onClick="openFunction('test1')">Скасувати</button>
+</body>
+<script>
+    function openFunction(id){
+        display = document.getElementById(id).style.display;
+        if(display == 'none'){
+            document.getElementById(id).style.display = "block";
+            document.getElementById('btn').innerHTML = "Скасувати";
+        }else{
+            document.getElementById(id).style.display = "none";
+            document.getElementById('btn').innerHTML = "Детальніше"; 
+        }
+    }
+</script>
+</html>
