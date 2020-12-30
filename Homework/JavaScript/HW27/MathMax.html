@@ -6,6 +6,9 @@
 </head>
 <script>
 let arr = [5, 80, -44, 120, 60, -5, 206];
-alert( Math.max(...arr) );
+function viewMax (arr){
+return Math.max.apply(null, arr);
+}
+alert (viewMax(arr));
     </script>
 </html>
