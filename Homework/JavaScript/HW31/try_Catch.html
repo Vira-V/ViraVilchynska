@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Try...Catch</title>
+</head>
+<style>
+    input{
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+</style>
+<body>
+    <form>
+        <label for="first_name"> First name: </label> <br>
+        <input id="name1" type="text"> <br>
+        <label for="last_name"> Last name: </label> <br>
+        <input id="name2" type="text"> <br>
+        <label for="email"> Email: </label> <br>
+        <input id="email" type="text"> <br>
+      </form>
+      <button class="btn" onclick="validateEntry()">Submit</button>
+      <div id="console">
+      
+      </div>
+</body>
+<script>
+ function checkUserEntry()
+    {
+    let userName = document.getElementById('name1').value;
+    let userSurname = document.getElementById('name2').value;
+    if(userName.length == 0)
+    {
+        throw new Error('Please, enter your name and last name');
+    }
+    else if(userSurname.length < 1)
+    {
+        throw  new Error('Please, enter your surname');
+    }
+    document.getElementById('console').innerHTML = "<h3 style='color:green'> Your are: </h3>" + userName + ' ' + userSurname;
+}
+function validateEntry()
+{
+    try
+    {
+        checkUserEntry();
+    }
+    catch(error)
+    {
+        document.getElementById('console').innerHTML = 
+            "<h3 style='color:red'> Warning: </h3>" + error.message;
+    }
+}
+</script>
+</html>
