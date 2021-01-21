@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Open</title>
+</head>
+<body>
+  <input type="button" value="Open newWin" onClick="winOpen()" />
+  <input type="button" value="Close newWin" onClick="winClose()" />
+</body>
+<script>
+
+let newWin;
+function winOpen(){
+	 newWin = window.open("about:blank", "hello", "width= 400, height=400, left=500, top= 500");
+	 newWin.location="https://rozetka.com.ua/";
+	}
+function winClose()
+{
+	 newWin.close();
+	}
+</script>
+</html>

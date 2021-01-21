@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+</head>
+<style>
+    input{
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    #answer{
+        padding-bottom: 20px;
+    }
+</style>
+<body>
+<div>
+    <form action="" class="form" >
+<div>
+    <input type="text" name="name" placeholder="first_name" />
+</div>
+<div>
+    <input type="text" name="surname" placeholder="surname" />
+</div>
+<div>
+    <input type="email"name="email" placeholder="email" />
+</div>
+<div>
+    <input type="phone" name="phone" placeholder="phone" />
+</div>
+<div>
+    <input type="text" name="city" placeholder="city" />
+</div>
+<textarea name="area" cols="30" rows="10" placeholder="Write a text"></textarea>
+<div>
+    <input type="button" id="click-btn" value="Send message">
+</div>
+</form>
+</div>
+<div id="answer"></div>
+</body>
+<script>
+    function getForm() {
+        document.getElementById('answer').innerHTML = '';
+        let inputs = document.getElementsByTagName('input');
+        let firstName;
+        let surname;
+        let city;
+        for(let i = 0; i < inputs.length; i++){
+            switch (inputs[i].name) {
+                case 'name':{
+                    if(inputs[i].value != ''){
+                        firstName = inputs[i].value;
+                    }
+                    break;
+                }
+                case 'surname':{
+                    if(inputs[i].value != ''){
+                        surname = inputs[i].value;
+                    }
+                    break;
+                }
+                case 'city':{
+                    if(inputs[i].value != ''){
+                        city = inputs[i].value;
+                    }
+                    break;
+                }
+            }
+        }
+        console.log(firstName);
+        if(firstName !== undefined && surname !== undefined && city !== undefined){
+            document.getElementById('answer').innerHTML = firstName + ' ' + surname  + ' ' + city;
+        }
+    }
+
+    document.getElementById('click-btn').addEventListener('click', getForm);
+</script>
+</html>
