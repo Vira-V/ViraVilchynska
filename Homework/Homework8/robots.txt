@@ -1,6 +1,0 @@
-User-agent: * 
-Allow: /JS
-Allow: /CSS
-Disallow: /Vendor
-Disallow: /Includes
-

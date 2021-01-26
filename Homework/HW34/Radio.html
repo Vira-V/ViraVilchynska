@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Radio button</title>
+</head>
+
+<body>
+<h2>Onkeypress</h2>
+<div>
+<input type="radio" name="color" /> Кнопка 1
+<input type="radio" name="color" /> Кнопка 2
+<input type="radio" name="color"/> Кнопка 3
+</div>
+
+</body>
+<script>
+let key = document.querySelector('div');
+function random(number){
+	 return Math.floor(Math.random()*(number+1));
+	}
+key.onkeypress = function(){
+	 let rgbColor = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+	 document.body.style.backgroundColor = rgbColor;
+	}
+</script>
+</html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Count Symbols Form</title>
+</head>
+<style>
+    .form{
+        margin: 0 auto;
+        border: solid 5px green;
+        padding: 20px 20px;
+        width: 300px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input{
+        font-size: 20px;   
+    }
+    div{
+        margin-bottom: 10px;
+    }
+    span{
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+</style>
+<body>
+<form class="form">
+<div>
+        <div><label>Name:</label></div>
+        <div><input id="firstName" type="text" class="name" maxlength="15"/><span id="result"></span></div>
+</div>
+
+ <div>
+        <div><label>Surname:</label></div>
+        <div><input id="surname" type="text" class="surname" maxlength="15"/><span id="result2"></span></div>
+</div>
+
+<div>
+    <input id="btn" type="button" value="Count Symbols"/></div>
+  <span id="general"></span>
+</form>
+</body>
+<script>
+function ShowCount1(){
+    result.innerHTML = firstName.value.length;	
+}
+	
+    firstName.onkeyup = ShowCount1;
+    firstName.onropertychange = function(){
+	 if(event.propertyName == "value")ShowCount1();
+	}
+    firstName.oncut = function(){
+	setTimeout(ShowCount1, 0);
+    }
+    
+function ShowCount(){
+    result2.innerHTML = surname.value.length;
+	}
+	
+    surname.onkeyup = ShowCount;
+    surname.onropertychange = function(){
+	 if(event.propertyName == "value")ShowCount();
+	}
+surname.oncut = function(){
+	setTimeout(ShowCount, 0);
+    }
+    let buttonPlus = document.getElementById('btn'); 
+    
+    
+function ShowSum(){
+    general.innerHTML = firstName.value.length + surname.value.length;
+    }
+    btn.addEventListener('click', ShowSum);
+</script>
+</html>
