@@ -1,0 +1,202 @@
+@charset "UTF-8";
+@media(max-width:1280px){
+.container{
+    overflow: hidden;
+}
+.block1{
+    padding-right: 40px;
+}
+.image3-1{
+    margin-left: 60px;
+}
+.footer{
+   padding-left: 100px;
+}
+}
+@media(max-width:1199px){
+.block1{
+
+}
+.box-img{
+    margin-left: 90px;
+}
+.text1-2{
+    width: 400px;
+}
+.block3-2{
+    margin-left: -80px;
+}
+.image3-1{
+    margin-left: -30px;
+}
+.block4-1{
+	margin: 10px;
+}
+@media(max-width:991px){
+.block1{
+    padding-top: 20px;
+}
+.block1-1{
+    text-align: center;
+}
+.btn1{
+    margin-top: 20px;
+    margin: 0 auto;
+}
+.text1-2{
+    margin-top: 20px;
+    width: 660px;
+}
+.box-img{
+    margin-top: 20px;
+}
+.box2{
+    margin-top: 20px;
+}
+.block3{
+    padding-top: 70px;
+}
+.block3-1{
+    padding-bottom: 60px;
+    text-align: center;
+} 
+.title3{
+    text-align: center;
+}
+.block3-2{
+    margin: 0 auto;
+}
+.image-background3{
+    height: 350px;
+}
+.block3-4{
+    text-align: center;
+}
+.link3-1{
+    margin: 0 auto;
+}
+.image3-1{
+    padding-top: 60px;
+    text-align: center;
+}
+.block4{
+    padding-top: 20px;
+}
+.block4-1{
+    margin: 42px;
+}
+#btn{
+    text-align: center;
+}
+.icon4{
+    margin: 0 auto;
+}
+.icon4-2{
+    margin-left: -60px;
+}
+.text6{
+    margin-left: 30px;
+}
+.image3 img{
+    height: 300px;
+}
+.title3{
+    font-size: 40px;
+}
+.image-background3{
+    height: 250px;
+}
+.image3-1 img{
+    height: 300px;
+}
+@media(max-width:767px){
+.text1-2{
+    width: 400px;
+}
+.box2{
+    margin-bottom: 50px;
+}
+.page {
+    padding-bottom: 540px;
+}
+.text5{
+    margin-right: 0px;
+}
+.footer{
+    text-align: center;
+    padding-left: 0;
+}
+}
+@media(max-width:500px){
+.box-img{
+    margin-left: 0px;
+}
+.block2{
+    padding-top: 50px;
+}
+.title2{
+    font-size: 40px;
+}
+.block3{
+    padding-top: 40px;
+    padding: 20px;
+}
+.image-background3{
+    height: 210px;
+}
+.text3-1{
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 30px;
+	font-size: 18px;
+	text-align: left;
+	font-style: oblique;
+}
+.icon4 img{
+    height: 180px;
+}
+.title4,
+.title4-2{
+    font-size: 30px;
+}
+.block4-1{
+    margin: 30px;
+}
+.image3-1{
+    margin-left: 40px;
+}
+.text1-2{
+    margin-left: -10px;
+}
+}
+@media(max-width:480px){
+.text1{
+    font-size: 35px;
+}
+.text1-2{
+    width: 200px;
+}
+.title3{
+    font-size: 25px;
+}
+.image-background3{
+    height: 170px;
+}
+.text3-1{
+    font-size: 14px;
+}
+.block4{
+    padding-bottom: 20px;
+}
+.text5{
+    padding: 20px;
+}
+.text6{
+    margin-left: 0;
+}
+.footer{
+    text-align: left;
+    padding-left: 30px;
+}
+}
+}
