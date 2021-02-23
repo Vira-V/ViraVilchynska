@@ -1,0 +1,315 @@
+@charset "UTF-8";
+@media(max-width:1280px){
+.button1{
+    padding-top: 100px;
+    margin-bottom: -160px;
+}
+.nav-menu {
+    margin-left: 350px;
+    margin-right: -80px;
+}
+}
+@media(max-width:1199px){
+.nav-menu {
+    margin-left: 200px;
+    margin-right: -400px;
+}
+}
+@media(max-width:991px){
+.page {
+        padding-bottom: 220px;
+    }
+.header {
+    padding-top: 30px;
+}
+.nav-menu {
+    margin-top: -28px;
+    margin-right: -80px;
+}
+.block1 h1 {
+    padding-top: 180px;
+    font-size: 45px;
+}
+.block1 h3 {
+    padding-bottom: 30px;
+}
+.block2{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.block2 h2 {
+    font-size: 30px;
+}
+.text2-2 {
+    font-size: 15px;
+    margin: 20px;
+    line-height: 30px;
+}
+.block2_1{
+    padding-top: 20px;
+    margin-left: 90px;
+    margin-right: -200px;
+}
+.text2 {
+    margin: 20px;
+    line-height: 25px;
+}
+.gallery{
+    padding-bottom: 20px;
+    padding-left: 180px;
+}
+.contents .search{
+    margin-top: -220px;
+    margin-left: 220px;
+}
+.contents .content3{
+    margin-left: 180px;
+    margin-bottom: -10px;
+}
+.button3{
+    padding-bottom: 20px;
+}
+.block4{
+    padding-top: 20px;
+}
+.block4 h4{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.form4 input{
+    margin-left: 10px;
+}
+.form4 p{
+    margin-left: 10px;
+}
+.form4 .name,
+.form4 .mail{
+    padding-right: 120px;
+}
+textarea{
+    padding-right: 342px;
+    padding-bottom: 100px;
+}
+.block5{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer .icon5{
+    padding: 10px;
+    max-width: 50px;
+}
+.icon5 i{
+    font-size: 20px;
+}
+}
+@media(max-width:767px){
+.header{
+    padding-top: 0px;
+}
+.logo{
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.nav-menu .navbar-toggler, .nav-menu .navbar-brand{
+    display: block;
+}
+.nav-menu{
+    margin: 10px 0px;
+    border-bottom: inherit;
+    background: #fff;
+    padding: 8px;
+    position: absolute;
+}
+.nav-menu .responsive_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu .navbar-expand-md .navbar-brand{
+    color: #333;
+}
+.nav-menu .navbar-expand-md .navbar-toggler{
+    outline: none;
+}
+.nav-menu .navbar-expand-md .navbar-toggler i{
+    transition: 0.3s;
+}
+.nav-menu .navbar-expand-md .navbar-toggler i:hover{
+    color: #8f8a8a;
+}
+.nav-menu ul li a{
+    color: #333;
+    font-weight: 700;
+    border-bottom: inherit;
+    padding: 10px;
+}
+.nav-menu ul li.active a{
+    font-weight: 700;
+}
+.nav-menu ul li.active a, .nav-menu ul li a:hover{
+    text-decoration: none;
+    padding-bottom: 0;
+    border-bottom: inherit;
+    padding: 10px;
+} 
+.nav-menu ul li{
+    margin-right: 12px;
+    border-bottom: solid 0.5px #cccccc;
+} 
+  .block2_1 {
+    margin-left: 0px;
+    margin-right: -20px;
+}
+.contents .search {
+    margin-left: 80px; 
+}
+.gallery {
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+.contents .content3 {
+    margin-left: 60px;
+}
+.form4 .name,
+.form4 .mail{
+    margin-bottom: 20px;
+}
+textarea{
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.block5{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer .icon5{
+    padding: 10px;
+    max-width: 50px;
+}
+.icon5 i{
+    font-size: 20px;
+}
+.block1 h1 {
+    padding-top: 220px;
+    font-size: 45px;
+}
+.block1 h3 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+}
+@media(max-width:500px){
+.logo{
+    padding-left: 20px;
+}
+.nav-menu {
+    margin-left: 20px;
+}
+.nav-menu ul li a{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.gallery {
+    padding-left: 35px;
+}
+.contents .content3 {
+    margin-left: 35px;
+}
+.block2_1 {
+    margin-left: 10px;
+    margin-right: -10px;
+}
+.block4 h4{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.form4 input{
+    margin-left: 20px;
+}
+.form4 p{
+    margin-left: 20px;
+}
+.form4 .name,
+.form4 .mail{
+    padding-right: 100px;
+}
+textarea{
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.form4 input::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+}
+p{
+    font-size: 20px;
+}
+.block5{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer .icon5{
+    padding: 10px;
+    max-width: 50px;
+    margin-top: 10px;
+}
+.icon5 i{
+    font-size: 20px;
+}
+.page {
+    padding-bottom: 350px;
+}
+.footer h5 {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 40px;
+}
+}
+@media(max-width:480px){
+.block1 .container{
+    overflow: hidden;
+}
+.button1 {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.block1 .background1 {
+padding-bottom: 20px; 
+}
+.block2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.block2 h2 {
+    font-size: 22px;
+}
+.gallery img {
+    max-width: 300px;
+}
+.contents .search {
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.contents .content3 {
+    padding: 10px;
+}
+.content3{
+    width: 300px;
+
+  }
+  .title3{
+      font-size: 20px;
+  }
+  .text3{
+      font-size: 12px;
+  }
+.form3{
+    width: 200px;
+    height: 40px;
+  }
+  .form3 input:focus {
+    width: 200px;
+
+  }
+}
