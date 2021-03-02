@@ -1,0 +1,394 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+html,
+body{
+    height: 100%;
+}
+.for_page{
+   position: relative;
+   min-height: 100%;
+}
+.page{
+    padding-bottom: 100px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(../img/footer.jpg);
+    padding: 28px 0;
+}
+body{
+    font-size: 14px;
+    color: #000;
+}
+img{
+    width: auto;
+    height: auto;
+    max-height: 100%;
+}
+/*header*/
+.header{
+    z-index: 2;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.nav-menu {
+    margin-left: 800px;
+}
+.nav-menu ul li a{
+    transition: 0.3s;
+    color:#636363;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.nav-menu ul li{
+    margin-left: 10px;
+    border-right: solid 1px #a29a98;
+}
+.nav-menu ul li:last-child{
+    margin-right: 0;
+    border-right: none;
+}
+.nav-menu ul li.active a,
+.nav-menu ul li a:hover{
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: 600;
+}
+/*header*/   
+.nav-menu .navbar-toggler,
+.nav-menu .navbar-brand{
+    display: none;
+}
+
+/*block1*/
+.block1{
+padding-left: 150px;
+position: relative;
+z-index:44;
+padding-bottom: 30px;
+background-size: cover;
+width: 100%;
+background:radial-gradient(circle at 600px, #13b9ab 160px, #079492 161px, #079490 191px, #048a8b 192px, #048a8b 222px, #00767e 223px);
+}
+.block1:before {
+    content:'';
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient( 135deg, rgba(0,117,126, 0.6) 25%, rgba(16, 208, 181, 0.9) 65%);;
+ }
+.slide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+.slides {
+    width: 119px;
+    height: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.slides:hover {
+    background:#80caca;
+    cursor: pointer;
+}
+.slide_1 {
+    background: #069491;
+}
+.slide_2 {
+    background: #038789;
+}
+.slide_3 {
+    background: #017d82;
+}
+.iphone{
+    padding-top: 50px;
+    z-index:4;
+}
+.iphone img{
+    border-radius: 15px;
+}
+.content1{
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.planet i{
+    font-size: 60px;
+}
+.planet{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+}
+.block1 h1{
+    padding-top: 40px;
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 49px;
+    margin-bottom: 10px;
+}
+.block1 h2{
+    font-size: 17px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    font-stretch: extra-condensed;
+    padding-bottom: 20px;
+}
+.btn_buy i{
+    font-size: 28px;
+    color: #fff;
+    background: #259d8e;
+    padding: 10px;
+}
+.btn_buy{
+    font-size: 20px;
+    color: #fff;
+    background: #54d3c3;
+    padding: 10px;
+    position: relative;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+.btn_buy3 i{
+    position: absolute;
+    top: 0;
+    left:0;
+    font-size: 18px;
+    color: #fff;
+    background: #259d8e;
+    padding: 10px;
+    transition: 0.3s;
+}
+.content2 a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.content2 a:hover{
+    text-decoration: none;
+    background: #3edac6;
+    color: #fff;
+}
+/*block1*/
+
+/*block2*/
+.block2{
+    padding-top: 30px;
+}
+.title2{
+    font-size: 40px;
+    color: #636363;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text2{
+    font-size: 15px;
+    color: #636363;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.phone_img{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.app{
+    position: relative;
+}
+.phone_text{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.phone1{
+    text-align: center;
+}
+.phone1 i{
+    font-size: 100px;
+    color: #fff;
+}
+.phone_title2{
+    font-size: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.phone_text2{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 180px;
+}
+/*block2*/
+
+/*block3*/
+.block3{
+    background: url(../img/block3.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+.icon{
+    text-align: center;
+    display: flex;
+}
+.icons {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i{
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icon i:hover{
+color: #4caf50;
+}
+.icon3-1{
+    background: #01646c;
+}
+.icon3-2{
+    background: #097b84;
+}
+.icon3-3{
+    background: #118f99;
+}
+.icon3-4{
+    background: #1da0aa;
+}
+.icon3-5{
+    background: #29b7c2;
+}
+.icon3-6{
+    background: #3ccad5;
+}
+.laptop{
+    padding-top: 100px;
+}
+.title3{
+    padding-top: 150px;
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 49px;
+    margin-bottom: 10px;
+}
+.text3{
+    font-size: 17px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.btn_buy3 {
+    font-size: 20px;
+    color: #fff;
+    background: #06ccb3;
+    padding: 10px;
+    position: relative;
+    padding-right: 100px;
+    margin-top: 10px;
+}
+.btn_buy3 i{
+    position: absolute;
+    top: 0;
+    left:0;
+    font-size: 27px;
+    color: #fff;
+    background: #3edac6;
+    padding: 10px;
+    transition: 0.3s;
+}
+.content3 a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.content3 a:hover{
+    text-decoration: none;
+    background: #3edac6;
+    color: #fff;
+}
+span{
+    padding-left: 80px;
+    margin-right: -50px;
+}
+
+
+/*block3*/
+
+/*block4*/
+.content4{
+    padding: 40px 0px;
+}
+.title4{
+    font-size: 200px;
+    color: #49d7b0;
+    text-align: center;
+    font-weight: 500;
+}
+.text4{
+    font-size: 75px;
+    color: #49d7b0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-weight: 400;
+}
+.content4-1{
+    background: #49d7b0;
+    text-align: center;
+    padding: 40px 0px;
+}
+.content4-1 i{
+    padding: 50px;
+    font-size: 300px;
+    color: #fff;
+    transform: rotate(180deg);
+}
+/*block4*/
+
+
+/*footer*/
+.footer{
+  border-top:1px solid #989898;
+}
+.final{
+    text-align: center;
+    margin-bottom: 30px; 
+}
+.final a{
+    font-size: 23px;
+    color: #989898;
+}
+.final h5 a:hover{
+    color:cadetblue;
+    text-decoration: none;
+}
+/*footer*/
