@@ -1,0 +1,41 @@
+.header {
+  padding: 15px;
+  background-color: #ecbfbf;
+}
+.header-button {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+  background-color: #c96b6b;
+  color: #fff;
+  transition: 0.3s;
+}
+.header-button:hover{
+  background-color: #bceba1;
+}
+.sidebar {
+  width: 500px;
+  display: inline-block;
+  margin-top: 40px;
+  background-color: #bceba1;
+  padding: 20px;
+}
+.sidebar-button {
+  width: 45%;
+  float: left;
+  color: #fff;
+  background-color: #69be41;
+  border: solid 2px #143f1b;
+  margin-right: 5%;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.clear {
+  clear: both;
+}
+.sidebar-button:hover{
+  background-color: #ecbfbf;
+}
