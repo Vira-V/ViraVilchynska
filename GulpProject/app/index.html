@@ -1,0 +1,443 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exam Project</title>
+<link href="less/main.less" type="text/less" rel="stylesheet" />
+<link href="less/libs.less" rel="stylesheet" />
+<link href="css/libs.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/responsive.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/plain" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+<!-- Owl Carousel -->
+
+
+<!-- Jquery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Smooth Scroll -->
+<script src="js/smooth-scroll.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- Script -->
+<script src="js/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/customs.js"></script>
+<script src="js/script.js"></script>
+
+
+<script src="js/wow.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+new WOW().init();
+</script>
+
+</head>
+<body>
+<div class="for_page">
+   <div class="page">
+
+        <header class="header">
+        <div class="container border-header">
+        <div class="row">
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12">
+        <a href="/" class="logo"><img src="img/logo.png" alt="logo" title="logo"/></a>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">	
+
+        <nav class="nav-menu">
+        		<ul>
+                        <li class="item active"><a href="#">Home</a></li>
+                        <li class="item"><a href="#">Video</a></li>
+                        <li class="item"><a href="#">Destinations</a></li>
+                        <li class="item"><a href="#">Booking</a></li>
+                </ul>
+        </nav>
+        </div>
+        <div class="col-xl-4 col-lg-3 col-md-12 col-sm-12">
+<button class="signIn" onclick="document.getElementById('id01').style.display='block'">Sign In</button>
+<div id="id01" class="modalIn">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button class="signIn_modal" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="cancel">
+      <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Block1 -->
+       <section class="block1">
+       <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="title1">Travel around the world</div>
+                            <div class="text1">Plan and book your perfect trip with expert advice, 
+                                travel tips, destination information and 
+                                inspiration from us.</div>
+<div class="btnSignUp">
+
+  <button class="signUp" onclick="document.getElementById('id02').style.display='block'">Sign Up Now</button>
+ 
+  <div id="id02" class="modalUp">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+      <form class="modal-content animate" action="/action_page.php">
+          <div class="container">
+              <label><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <label><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              <input type="checkbox"> Remember me
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+              <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                  <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+          </div>
+      </form>
+  </div>
+</div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 travel_photo">
+    
+                        <img src="img/header_image.png" alt="travel" class="img_block1">
+
+                    </div>
+                    </div>
+               </div>
+        </section>
+<!-- Block1 -->
+
+<!-- Block2 
+        <section class="block2">
+          <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                    <div class="title2">Amazing places to enjoy your travel</div>
+                    <div class="text2">Etiam facilisis, sapien quis porta dignissim, orci nisi pharetra dui, varius vehicula ligula nulla sit amet lorem. Aenean in vestibulum quam. Cras commodo varius neque, non gravida diam ultrices nec. Cras nulla mauris, fermentum nec libero in..</div>
+                    <div class="btnExplore">
+                    <a href="#"class="explore">Explore</a>
+                    </div>
+                </div>
+        </div>
+      </div>
+        </section>
+ Block2 -->
+
+<!-- Block3 -->
+        <section class="block3">
+          <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="title3">Featured videos</div>
+                    <div class="text3">
+                      Aliquam sodales vitae ex tincidunt consectetur. Etiam eleifend malesuada magna, at imperdiet justo euismod eu. Aliquam vel imperdet mi, et convallis eros. Duis fermentum fringilla nisl at vulputate. Nunc nec lorem faucibus, molestie nisi id, elementum sem. Sed 
+                      vulputate tempor augue a efficitur urna, ultrices eu. Duis vel turpis et arcu.
+                    </div>
+                </div>
+            </div>
+            </div>
+              <!-- videos -->
+         </section>            
+<section class="video-gallery">    
+       <div class="container-fluid pb-video-container">
+                <div class="col-md-12 col-md-offset-1 col-sm-12">
+                    <div class="row pb-row">
+                        <div class="col-md-8 col-sm-12 pb-video-active ">
+                            <iframe class="pb-video-frame-active" width="100%" height="230" src="https://www.youtube.com/embed/GIimOIZy-RA" frameborder="0" allowfullscreen></iframe>
+                            <label class="form-control-active label-warning">When go to Maldives </br> 03.55</label>
+                        </div>
+                        <div class="col-md-4 col-sm-12 pb-video ">
+                          <div><iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/GIimOIZy-RA" frameborder="0" allowfullscreen></iframe></div>
+                          <div><label class="form-control label-warning">When go to Maldives </br> 03.55</label></div>
+                          <div> <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/IvVzhvKE6nY" frameborder="0" allowfullscreen></iframe></div>
+                          <div><label class="form-control label-warning ">Tanzania's deadly pink lake </br> 05.24</label></div>
+                          <div> <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/2Cb7s2U93pg" frameborder="0" allowfullscreen></iframe></div>
+                          <div><label class="form-control label-warning">Top things to do in Kathmandu </br> 06.12</label></div>
+                            <div><iframe class="pb-video-frame " width="100%" height="230" src="https://www.youtube.com/embed/DJlmVOSEvGA" frameborder="0" allowfullscreen></iframe></div>
+                            <div><label class="form-control label-warning ">Exploring China's creative capital</br> 04.33</label></div>
+                            <div><iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/tBNkeXmq4IQ" frameborder="0" allowfullscreen></iframe></div>
+                            <div><label class="form-control label-warning ">Wynwood walls</br> 04.33</label></div>
+                            <div><iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/2Cb7s2U93pg" frameborder="0" allowfullscreen></iframe></div>
+                            <div><label class="form-control label-warning ">Wynwood walls</br> 04.33</label></div>
+                            <div><iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/2Cb7s2U93pg" frameborder="0" allowfullscreen></iframe></div>
+                            <div><label class="form-control label-warning ">Wynwood walls</br> 04.33</label></div>
+                            <div><iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/IvVzhvKE6nY" frameborder="0" allowfullscreen></iframe></div>
+                            <div><label class="form-control label-warning ">Wynwood walls</br> 04.33</label></div>
+                           
+                        </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+        </section> 
+<!-- Block3 -->
+
+<!-- Block4 -->
+   <section class="block4">
+    <div class="container">
+      <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <div class="title4">Travel categories</div>
+              <div class="text4">
+                Maecenas et eros non quam ultricies interdum. Proin ac dolor vel neque ullamcorper blandit vitae et felis. Morbi ante urna, imperdiet vel neque vitae, porta ullamcorper metus. Quisque bibendum venenatis eros sed commodo. Nullam ultrices tortor non diam ullamcorper auctor. In urna tellus, auctor sit amet est ut, scelerisque volutpat diam.
+              </div>
+          </div>
+      </div>
+    </div>
+
+  <div class="wrapper">
+    <div class="slider-container">
+      <div class="slider-track"> 
+        <div class="slider-item"><img src="img/img_01.jpg" alt="slide4">
+          <div class="slider-text">Food</div></div>
+        <div class="slider-item"><img src="img/img_02.jpg" alt="slide4">
+          <div class="slider-text">Backpacking</div></div>
+        <div class="slider-item"><img src="img/img_03.jpg" alt="slide4">
+          <div class="slider-text">Beaches, coast and island</div></div>
+        <div class="slider-item"><img src="img/img_04.jpg" alt="slide4">
+          <div class="slider-text">Art and culture</div></div>
+        <div class="slider-item"><img src="img/img_05.jpg" alt="slide4">
+          <div class="slider-text">Wildlige and nature</div></div>
+        <div class="slider-item"><img src="img/img_01.jpg" alt="slide4">
+          <div class="slider-text">Food</div></div>
+        <div class="slider-item"><img src="img/img_02.jpg" alt="slide4">
+          <div class="slider-text">Backpacking</div></div>
+        <div class="slider-item"><img src="img/img_03.jpg" alt="slide4">
+          <div class="slider-text">Beaches, coast and island</div></div>
+        <div class="slider-item"><img src="img/img_04.jpg" alt="slide4">
+          <div class="slider-text">Art and culture</div></div>   
+    </div>
+  </div>
+  <div class="slider-buttons">
+    <button class="btn-prev"><i class="fas fa-arrow-left"></i></button>
+    <button class="btn-next"><i class="fas fa-arrow-right"></i></button>
+  </div>
+  </div>
+</section>
+<!-- Block4 -->
+
+
+<!-- Block5 -->
+<section class="block5">
+  <div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="title5">Traveller's experiences</div>
+            <div class="text5">
+              “Curabitur posuere ullamcorper pulvinar. Donec dignissim bibendum leo, at faucibus enim aliquam eu. Nullam quis pulvinar diam, ac elementum urna. Integer id vehicula tortor, nec pulvinar libero. Ut elit elit, fringilla a nisi ut, dapibus eleifend quam.” 
+            </div>
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol> <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+          <div class="item carousel-item active">
+              <div class="img-box"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758981/male-2634974_640.jpg" alt="block5"></div>
+              <p class="overview"><b>Donquixote Law</b>Traveller </p>
+              <div class="star-rating"> </div>
+          </div>
+          <div class="item carousel-item">
+              <div class="img-box"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758980/people-875617_1280.jpg" alt="block5"></div>
+              <p class="overview"><b>Paula Wilson</b>Media Analyst </p>
+              <div class="star-rating"> </div>
+          </div>
+          <div class="item carousel-item">
+              <div class="img-box"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758980/portrait-1287413_640.jpg" alt="block5"></div>
+              <p class="overview"><b>Antonio Moreno</b>Web Developer</p>
+              <div class="star-rating"> </div>
+          </div>
+          <div class="item carousel-item">
+            <div class="img-box"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758981/male-2634974_640.jpg" alt="block5"></div>
+            <p class="overview"><b>Donquixote Law</b>Traveller </p>
+            <div class="star-rating"> </div>
+        </div>
+      </div> <!-- Carousel controls --> <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev"> <i class="fas fa-arrow-left"></i> </a> <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next"> <i class="fas fa-arrow-right"></i> </a>
+  </div>
+  </div>
+
+</section>
+<!-- Block5 -->
+
+<!-- Block6 -->
+<section class="block6">
+  <div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="title6">We will see you</div>
+            <div class="text6">
+              Enjoy 30% Off On First Trip
+            </div>
+        </div>
+    </div>
+
+    <form class="booking">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+          <div class="contact-input inset-label">
+            <label for="select" class="select">
+              <select name="subject1" id="select1">
+                <option value="" selected>Destinations</option>
+                <option value="1">Amsterdam</option>
+                <option value="1">Ankara</option>
+                <option value="1">Kyiv</option>
+                <option value="1">Milan</option>
+                <option value="1">Paris</option>
+                <option value="1">Isnanbul</option>
+              </select>
+            </label>
+          </div>
+          </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+              <div class="contact-input inset-label">
+                <label for="select" class="select">
+                  <select name="subject2" id="select2">
+                    <option value="" selected>Package</option>
+                    <option value="1">only hand luggage</option>
+                    <option value="1">20kg</option>
+                    <option value="1">30kg</option>
+                    <option value="1">more that 30 kg</option>
+                  </select>
+                </label>
+              </div>
+              </div> 
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-5">
+                  <div class="input-data">        	
+                 <input id="datefield" type='date' min='2021-03-29' max='2031-01-01' placeholder="Dates" required>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                    <div class="book_button">
+                    <input type="submit" value="Book now">
+                    </div>
+                  </div>             
+</form>
+  </div>
+</section>
+<!-- Block6 -->
+
+
+<!-- Footer -->
+   <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-menu">
+          <div class="list">Home</div>
+          <div class="list">Video</div>
+          <div class="list">Destinations</div>
+          <div class="list">Booking</div>
+          <div class="list">Contact</div>
+          <div class="list">Pricing</div>
+          <div class="list">Privacy Policy</div>
+          </div>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 title8">
+          <h4><a href="#">Copyright 2014 - 2018</a> Rhea - Travel Around The World</h4>
+        </div>
+        <ul class="icon">
+          <li class="col-xl-3 col-lg-3 col-md-3 col-sm-3 icons">
+            <i class="fab fa-youtube"></i>
+          </li>
+          <li class="col-xl-3 col-lg-3 col-md-3 col-sm-3 icons">
+            <i class="fab fa-facebook-f"></i>
+          </li>
+          <li class="col-xl-3 col-lg-3 col-md-3 col-sm-3 icons">
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li class="col-xl-3 col-lg-3 col-md-3 col-sm-3 icons">
+            <i class="fas fa-envelope"></i>
+          </li>
+      </ul>
+          </div>
+      </div>  
+   </footer>
+</div>
+<script>
+  let position = 0;
+const slidesToShow = 5;
+const slidesToScroll = 1;
+const container = document.querySelector('.slider-container');
+const track = document.querySelector('.slider-track');
+const btnPrev = document.querySelector('.btn-prev');
+const btnNext = document.querySelector('.btn-next');
+const items = document.querySelectorAll('.slider-item');
+const itemsCount = items.length;
+const itemWidth = container.clientWidth/ slidesToShow;
+const movePosition = slidesToScroll * itemWidth;
+
+items.forEach((item) => {
+ item.style.minWidth = `${itemWidth}px`;
+});
+
+btnNext.addEventListener('click', () => {
+   const itemsLeft = itemsCount - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth;
+position -= itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
+
+setPosition();
+checkBtns();
+});
+
+btnPrev.addEventListener('click', () => {
+position +=movePosition;
+
+setPosition();
+checkBtns();
+});
+
+const setPosition = () => {
+   track.style.transform = `translateX(${position}px)`;
+};
+
+const checkBtns = () => {
+btnPrev.disabled = position ===0;
+btnNext.disabled = position <= -(itemsCount -slidesToShow) * itemWidth;
+};
+checkBtns();
+</script>
+
+</body>
+</html>
