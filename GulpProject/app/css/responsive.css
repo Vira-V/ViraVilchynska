@@ -1,425 +1,60 @@
 @charset "UTF-8";
 
-@media(max-width:1199px){
-    .pb-video-frame {
-        max-width: 150px;
-    }
-    .form-control {
-        font-size: 18px !important;
-        margin-top: -110px;
-        width: 100%;
-        padding-left: 180px !important;
-    }
-    .slider-item {
-        margin-right: 20px;
-    }
-    .slider-item img {
-        height: 300px;
-    }
-    .block6{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    }
-    .text6 {
-        padding-bottom: 50px;
-    }
-    .book_button input {
-        padding: 12px 40px;
-        margin-left: 60px;
-    }   
-}
 @media(max-width:991px){
-    .title1 {
-        font-size: 30px;
-        font-weight: 500;
-        padding-top: 60px;
-    }
-    .text1 {
-        font-size: 18px;
-    }
-    .signIn{
-    width: 20%;
-    margin-left: 120px;
-    }
-    .modalIn {
-        width: 50%;
-    }
-    .signUp {
-        width: 50%;
-    }
-    .signUp {
-        width: 50%;
-    }
-    .title3{
-        padding-bottom: 20px;
-    }
-    .text3{
-        padding-bottom: 5px;
-    padding-top: 40px;
-    }
-    .form-control {
-        font-size: 15px !important;
-        margin-top: -125px;
-        padding-left: 170px !important;
-    }
-    .pb-video{
-        height: 500px;
-    }
-    .pb-video-frame-active {
-        height: 500px;
-    }
-    .title4{
-        padding-top: 30px;
-        font-size: 45px;
-        padding-bottom: 20px;
-    }
-    .text4 {
-        padding-bottom: 20px;
-        padding-top: 30px;
-    }
-    .slider-item img {
-        height: 250px;
-    }
-    .slider-text {
-        font-size: 14px;
-    }
-
-    .title5 {
-        font-size: 45px;
-        padding-bottom: 20px;
-    }
-    .text5 {
-        font-size: 20px;
+    .block1{
         padding-bottom: 50px;
-        padding-top: 30px;
     }
-    .block5 {
-        padding-bottom: 0px;
+    .form {
+        width: 300px;
     }
-    .block6{
-        padding-top: 100px;
-        padding-bottom: 100px;
+    .form p input, .form p textarea {
+        width: 300px;
     }
-    .book_button input {
-        margin-left: 270px !important;
-        margin-top: 20px;
-    }
-    .input-data input {
-        padding: 12px 10px;
-    }
-.text6 {
-    font-size: 48px;
-}
 }
 @media(max-width:767px){
-    .container{
-        overflow: hidden;
+    .form {
+        width: 500px;
     }
-    .modalUp {
-        width: 100%;
+    .form p input, .form p textarea {
+        width: 500px;
     }
-    .travel_photo {
-        height: 600px;
+    .maps {
+        text-align: center;
+        padding-top: 30px;
     }
-    .img_block1 {
-        margin-right: 0px;
+    .info1, .info2, .info3{
+        text-align: center;
     }
-    .block3 {
-        padding-top: 0px;
-    }
-    .title3 {
-        font-size: 30px; 
-    }
-    .text3 {
-        font-size: 18px;
-    }
-    .video-gallery {
-        max-height: 500px !important;
-    }
-    .pb-video-frame-active {
-        height: 300px;
-    }
-    .pb-video {
-        height: 200px;
-        margin-top: -280px;
-    }
-    .title4 {
-        font-size: 30px; 
-    }
-    .text4 {
-        font-size: 16px;
-    }
-    .slider-item img {
-        height: 200px;
-    }
-    .slider-text {
-        font-size: 11px;
-    }
-    .title5 {
-        font-size: 30px;
-    }
-        .text5 {
-            font-size: 17px;
-        }
-        .carousel {
-            width: 400px;
-        }
-    .carousel-control i {
-        font-size: 20px;
-    }
-    .title6 {
-        font-size: 30px;
-    }
-    .text6 {
-        font-size: 35px;
-    }
-    .contact-input {
-        max-width: 300px;
-        font-size: 20px;
-        padding-left: 10px;
-    }
-    .booking {
-        padding-left: 60px;
-    }
-    .input-data {
-        margin-top: 20px;
-    }
-    .input-data input {
-        padding: 12px 10px;
-        font-size: 20px;
-    }
-    .book_button input {
-        margin-left: 0px !important;
-        margin-top: 20px;
-    }
-    .book_button {
-        font-size: 20px;
-    }
-    .block6 .select {
-        width: 160px;
-    }
-    .footer-menu {
-        flex-wrap: wrap;
-        padding-left: 70px;
-    }
-    .title8 h4 {
-        font-size: 18px;
+    .info1{
+        padding-bottom: 10px;
     }
 }
 @media(max-width:500px){
-    .logo {
-        margin-left: 100px;
+    .form {
+        width: 400px;
     }
-    .nav-menu {
-        margin-left: 20px;
+    .form p input, .form p textarea {
+        width: 400px;
     }
-    .signIn {
-        width: 30%;
-        margin-left: 140px;
+    .logo{
+        text-align: center;
+        padding-bottom: 20px;
     }
-    .title1 {
-        font-size: 25px;
-        padding-top: 0px;
+    .more{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .header{
+        padding-bottom: 30px;
+    }
+    .contact_phone, .contact_mail{
         text-align: center;
     }
-    .signUp {
-        width: 40%;
-        margin-left: 120px;
-    }
-    .travel_photo {
-        position: relative;
-        height: 450px;
-    }
-    .img_block1 {
-        margin-right: 0px;
-    }
-    .title2 {
-        font-size: 27px;
-        text-align: center;
-        padding-top: 0px;
-        margin-bottom: 00px;
-    }
-    .title2::after {
-        margin-left: 180px;
-    }
-    .block2 .text2 {
-        font-size: 18px;
-        padding-top: 10px;
-    }
-    .btnExplore{
-        margin-left: 160px;
-    }
-    .block3 {
-        padding-top: 10px;
-    }
-    .title3 {
-        font-size: 27px;
-    }
-    .text3 {
-        font-size: 17px;
-    }
-    .title4 {
-        font-size: 27px;
-        padding-top: 40px;
-    }
-    .slider-item {
-        min-width: 220px !important;
-        margin-left: 30px;
-    }
-    .slider-text {
-        font-size: 14px;
-    }
-    .title5 {
-        font-size: 27px;
-    }
-    .text5 {
-        font-size: 15.5px;
-    }
-    .block6 {
+    .paragraph {
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    .title6 {
-        font-size: 27px;
-    }
-    .text6 {
-        font-size: 29px;
-        padding-bottom: 25px;
-    }
-    .input-data input {
-        padding: 12px 67px;
-        margin-left: -93px;
-        font-size: 20px;
-    }
-    .book_button input {
-        padding: 12px 40px;
-    }
-    .input-data {
-        margin-top: 0px;
-    }
-    .block6 .select > select {
-        margin-left: 45px;
-    }
-    .block6 .select {
-        width: 240px;
-    }
-    .book_button {
-        margin-left: -90px;
-    }
-    .title8 {
-        font-size: 15px;
-    }
-    .list{
-        font-size: 18px;
     }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
-    .logo {
-        margin-left: 250px;
-    }
-    .nav-menu {
-        margin-left: 50px;
-    }
-    .nav-menu ul li a {
-        font-size: 40px;
-    }
-    .signIn {
-        width: 30%;
-        margin-left: 250px;
-        font-size: 40px;
-    }
-    .title1 {
-        font-size: 35px;
-        padding-top: 0px;
-        text-align: center;
-    }
-    .text1 {
-        font-size: 25px;
-        text-align: center;
-    }
-    .signUp {
-        width: 45%;
-        margin-left: 200px;
-        font-size: 40px;
-    }
-    .travel_photo {
-        position: relative;
-        height: 350px;
-    }
-    .img_block1 {
-        margin-right: -130px;
-        margin-top: 20px;
-    }
-    .pb-video{
-        height: 500px;
-    }
-    .pb-video-frame-active {
-        height: 500px;
-    }
-    .block3 {
-        padding-top: 320px;
-    }
-    .title3 {
-        font-size: 35px;
-    }
-    .text3 {
-        font-size: 25px;
-    }
-    .title4 {
-        font-size: 35px;
-        padding-top: 40px;
-    }
-    .text4 {
-        font-size: 25px;
-    }
-    .slider-item {
-        min-width: 300px !important;
-        margin-left: 30px;
-    }
-    .slider-text {
-        font-size: 18px;
-    }
-    .title5 {
-        font-size: 35px;
-    }
-    .text5 {
-        font-size: 25px;
-    }
-    .block6 {
-        padding-top: 30px;
-        padding-bottom: 10px;
-    }
-    .title6 {
-        font-size: 32px;
-    }
-    .text6 {
-        font-size: 30px;
-        padding-bottom: 25px;
-    }
-    .input-data input {
-        padding: 12px 67px;
-        margin-left: -93px;
-        font-size: 20px;
-    }
-    .book_button input {
-        padding: 12px 40px;
-    }
-    .input-data {
-        margin-left: 80px;
-    }
-    .block6 .select > select {
-        margin-left: 0px;
-    }
-    .block6 .select {
-        width: 200px;
-    }
-    .book_button {
-        margin: 0 auto;
-    }
-    .title8 {
-        font-size: 20px;
-    }
-    .list{
-        font-size: 20px;
-    }  
+@media (max-width:480px) { 
+
 }
